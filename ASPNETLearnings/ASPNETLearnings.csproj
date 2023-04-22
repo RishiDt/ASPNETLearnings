@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Events.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="IsPostBack.aspx" />
     <Content Include="LifecycleWebForm.aspx" />
     <Content Include="sessionWebForm.aspx" />
     <Content Include="Web.config" />
@@ -84,6 +85,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IsPostBack.aspx.cs">
+      <DependentUpon>IsPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPostBack.aspx.designer.cs">
+      <DependentUpon>IsPostBack.aspx</DependentUpon>
     </Compile>
     <Compile Include="LifecycleWebForm.aspx.cs">
       <DependentUpon>LifecycleWebForm.aspx</DependentUpon>
