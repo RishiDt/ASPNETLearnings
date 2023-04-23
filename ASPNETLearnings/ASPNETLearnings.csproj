@@ -72,6 +72,7 @@
     <Content Include="IsPostBack.aspx" />
     <Content Include="LifecycleWebForm.aspx" />
     <Content Include="sessionWebForm.aspx" />
+    <Content Include="TextboxControl.aspx" />
     <Content Include="Web.config" />
     <Content Include="ApplicationState.aspx" />
   </ItemGroup>
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="ApplicationState.aspx.designer.cs">
       <DependentUpon>ApplicationState.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TextboxControl.aspx.cs">
+      <DependentUpon>TextboxControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextboxControl.aspx.designer.cs">
+      <DependentUpon>TextboxControl.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
