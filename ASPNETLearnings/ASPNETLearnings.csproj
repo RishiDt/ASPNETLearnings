@@ -71,6 +71,7 @@
     <Content Include="Global.asax" />
     <Content Include="IsPostBack.aspx" />
     <Content Include="LifecycleWebForm.aspx" />
+    <Content Include="RadioButton.aspx" />
     <Content Include="sessionWebForm.aspx" />
     <Content Include="TextboxControl.aspx" />
     <Content Include="Web.config" />
@@ -102,6 +103,13 @@
       <DependentUpon>LifecycleWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButton.aspx.cs">
+      <DependentUpon>RadioButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioButton.aspx.designer.cs">
+      <DependentUpon>RadioButton.aspx</DependentUpon>
+    </Compile>
     <Compile Include="sessionWebForm.aspx.cs">
       <DependentUpon>sessionWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
