@@ -70,11 +70,13 @@
     <Content Include="CheckBox.aspx" />
     <Content Include="Events.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="PlayGroundForm.aspx" />
     <Content Include="IsPostBack.aspx" />
     <Content Include="LifecycleWebForm.aspx" />
     <Content Include="RadioButton.aspx" />
     <Content Include="sessionWebForm.aspx" />
     <Content Include="TextboxControl.aspx" />
+    <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
     <Content Include="ApplicationState.aspx" />
   </ItemGroup>
@@ -95,6 +97,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PlayGroundForm.aspx.cs">
+      <DependentUpon>PlayGroundForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayGroundForm.aspx.designer.cs">
+      <DependentUpon>PlayGroundForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="IsPostBack.aspx.cs">
       <DependentUpon>IsPostBack.aspx</DependentUpon>
