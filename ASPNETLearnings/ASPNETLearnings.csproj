@@ -67,85 +67,94 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CheckBox.aspx" />
-    <Content Include="Events.aspx" />
-    <Content Include="Global.asax" />
-    <Content Include="PlayGroundForm.aspx" />
-    <Content Include="IsPostBack.aspx" />
-    <Content Include="LifecycleWebForm.aspx" />
-    <Content Include="RadioButton.aspx" />
-    <Content Include="sessionWebForm.aspx" />
-    <Content Include="TextboxControl.aspx" />
+    <Content Include="WebForms\Files\XMLFile1.xml" />
+    <Content Include="WebForms\CheckBox.aspx" />
+    <Content Include="WebForms\Events.aspx" />
+    <Content Include="WebForms\Global.asax" />
+    <Content Include="WebForms\PlayGroundForm.aspx" />
+    <Content Include="WebForms\IsPostBack.aspx" />
+    <Content Include="WebForms\LifecycleWebForm.aspx" />
+    <Content Include="WebForms\PlayGroundForm2.aspx" />
+    <Content Include="WebForms\RadioButton.aspx" />
+    <Content Include="WebForms\sessionWebForm.aspx" />
+    <Content Include="WebForms\TextboxControl.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
-    <Content Include="ApplicationState.aspx" />
+    <Content Include="WebForms\ApplicationState.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckBox.aspx.cs">
+    <Compile Include="WebForms\CheckBox.aspx.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CheckBox.aspx.designer.cs">
+    <Compile Include="WebForms\CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Events.aspx.cs">
+    <Compile Include="WebForms\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Events.aspx.designer.cs">
+    <Compile Include="WebForms\Events.aspx.designer.cs">
       <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
+    <Compile Include="WebForms\Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="PlayGroundForm.aspx.cs">
+    <Compile Include="WebForms\PlayGroundForm.aspx.cs">
       <DependentUpon>PlayGroundForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PlayGroundForm.aspx.designer.cs">
+    <Compile Include="WebForms\PlayGroundForm.aspx.designer.cs">
       <DependentUpon>PlayGroundForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="IsPostBack.aspx.cs">
+    <Compile Include="WebForms\IsPostBack.aspx.cs">
       <DependentUpon>IsPostBack.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IsPostBack.aspx.designer.cs">
+    <Compile Include="WebForms\IsPostBack.aspx.designer.cs">
       <DependentUpon>IsPostBack.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LifecycleWebForm.aspx.cs">
+    <Compile Include="WebForms\LifecycleWebForm.aspx.cs">
       <DependentUpon>LifecycleWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LifecycleWebForm.aspx.designer.cs">
+    <Compile Include="WebForms\LifecycleWebForm.aspx.designer.cs">
       <DependentUpon>LifecycleWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\PlayGroundForm2.aspx.cs">
+      <DependentUpon>PlayGroundForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\PlayGroundForm2.aspx.designer.cs">
+      <DependentUpon>PlayGroundForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RadioButton.aspx.cs">
+    <Compile Include="WebForms\RadioButton.aspx.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RadioButton.aspx.designer.cs">
+    <Compile Include="WebForms\RadioButton.aspx.designer.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
     </Compile>
-    <Compile Include="sessionWebForm.aspx.cs">
+    <Compile Include="WebForms\sessionWebForm.aspx.cs">
       <DependentUpon>sessionWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="sessionWebForm.aspx.designer.cs">
+    <Compile Include="WebForms\sessionWebForm.aspx.designer.cs">
       <DependentUpon>sessionWebForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ApplicationState.aspx.cs">
+    <Compile Include="WebForms\ApplicationState.aspx.cs">
       <DependentUpon>ApplicationState.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ApplicationState.aspx.designer.cs">
+    <Compile Include="WebForms\ApplicationState.aspx.designer.cs">
       <DependentUpon>ApplicationState.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TextboxControl.aspx.cs">
+    <Compile Include="WebForms\TextboxControl.aspx.cs">
       <DependentUpon>TextboxControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TextboxControl.aspx.designer.cs">
+    <Compile Include="WebForms\TextboxControl.aspx.designer.cs">
       <DependentUpon>TextboxControl.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

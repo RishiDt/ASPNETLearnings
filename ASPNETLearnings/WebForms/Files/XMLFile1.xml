@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<root>
+	<element>
+		<elementValue>IND</elementValue>
+	<elementName>India</elementName>
+</element>
+<element>
+		<elementValue>UK</elementValue>
+	<elementName>United Kingdom</elementName>
+	</element>
+<element>
+		<elementValue>USA</elementValue>
+	<elementName>United States</elementName>
+	</element>
+<element>
+		<elementValue>AUS</elementValue>
+	<elementName>Austrelia</elementName>
+	</element>
+</root>
