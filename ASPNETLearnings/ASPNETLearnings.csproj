@@ -75,6 +75,7 @@
     <Content Include="WebForms\IsPostBack.aspx" />
     <Content Include="WebForms\LifecycleWebForm.aspx" />
     <Content Include="WebForms\PlayGroundForm2.aspx" />
+    <Content Include="WebForms\PlayGroundForm3.aspx" />
     <Content Include="WebForms\RadioButton.aspx" />
     <Content Include="WebForms\sessionWebForm.aspx" />
     <Content Include="WebForms\TextboxControl.aspx" />
@@ -129,6 +130,13 @@
       <DependentUpon>PlayGroundForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForms\PlayGroundForm3.aspx.cs">
+      <DependentUpon>PlayGroundForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\PlayGroundForm3.aspx.designer.cs">
+      <DependentUpon>PlayGroundForm3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForms\RadioButton.aspx.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
